@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int min, hour, totalMin;
+
+    printf("Enter Minute: ");
+    scanf("%d", &totalMin);
+
+    hour = (totalMin / 60);
+    min = (totalMin % 60);
+
+    printf("%d minute is %d hours, %d minutes.", totalMin, hour, min);
+
+    return 0;
+}
